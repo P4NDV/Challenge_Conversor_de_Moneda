@@ -72,7 +72,6 @@ public class Conversor {
         System.out.println("7) Dólar =>> Peso mexicano");
         System.out.println("8) Peso mexicano =>> Dólar");
         System.out.println("9) Salir");
-        System.out.println("Elija una opción válida:");
         System.out.println("*********************************************");
     }
 
