@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run ConversorApp (Terminal)",
+      "request": "launch",
+      "mainClass": "challengeconversordemonedas.ConversorApp",
+      "projectName": "conversor-moneda",
+      "console": "integratedTerminal"
+    }
+  ]
+}
