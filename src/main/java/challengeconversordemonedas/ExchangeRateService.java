@@ -14,7 +14,7 @@ public class ExchangeRateService {
 
     private static final String API_BASE = "https://v6.exchangerate-api.com/v6/";
     // Fallback para uso local: evita depender de variables de entorno en cada ejecución.
-    private static final String API_KEY_FALLBACK = "f6b32f03dcaecbc5c3395e11";
+    private static final String API_KEY_FALLBACK = "TU_API_KEY_AQUI";
     private static final Map<String, Double> CACHE_TASAS = new ConcurrentHashMap<>();
     private static volatile String apiKeyRuntime;
 
