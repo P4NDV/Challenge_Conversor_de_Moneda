@@ -19,9 +19,9 @@ Estructura:
 Requisitos previos
 - Java JDK 17+
 - Maven (opcional, recomendado)
-- Una API KEY para ExchangeRate-API guardada en la variable de entorno `EXCHANGE_API_KEY`.
+- Una API KEY para ExchangeRate-API guardado en el archivo `ExchangeRateService.java`.
 
-Configurar la API KEY (PowerShell):
+Configurar la API KEY:
 
 ```powershell
 API_KEY_FALLBACK = "TU_API_KEY_AQUI";
