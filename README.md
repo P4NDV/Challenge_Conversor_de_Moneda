@@ -24,7 +24,7 @@ Requisitos previos
 Configurar la API KEY (PowerShell):
 
 ```powershell
-$env:EXCHANGE_API_KEY = "TU_API_KEY_EXCHANGERATE"
+API_KEY_FALLBACK = "TU_API_KEY_AQUI";
 ```
 
 Compilar y ejecutar con Maven:
@@ -35,6 +35,7 @@ mvn exec:java -Dexec.mainClass="challengeconversordemonedas.ConversorApp"
 ```
 
 O abrir el proyecto en IntelliJ y ejecutar la clase `ConversorApp` para correr el scrip run.ps1.
+
 ![Ejemplo Salida](assets/Ejemplo_Salida.png)
 
 Notas sobre IntelliJ (añadir Gson manualmente si no usa Maven):
